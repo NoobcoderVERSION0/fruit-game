@@ -1,0 +1,102 @@
+.container{
+    border:2px solid black ;
+    /* height: ; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius:20px;
+   
+    min-width: 520px;
+}
+.container > div{
+    width: 500px;
+    border:2px solid black ;
+    border-radius:20px;
+    display: flex;
+    justify-content:space-around;
+    margin:10px;
+}
+.header >div{
+    width:210px;
+    display: flex;
+    justify-content: center;
+}
+
+.score-box , .life-box
+{
+    background-color:#839c9f;
+    border-radius: 10px;
+    box-shadow:0px 2px 2px black ;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    width:100px;
+    height:35px;
+    text-align: center;
+    padding-bottom:12px;
+     text-transform: uppercase;
+}
+
+.question{
+    height:340px;
+    position: relative;
+    overflow: hidden;
+}
+.gameover
+{
+    
+    background-color:#839c9f;
+    
+    box-shadow:0px 2px 2px black ;
+    width:300px;
+    margin:20px ;
+    border-radius: 10px;
+
+    text-align: center;
+    display: none;
+     text-transform: uppercase;
+     padding-top: 100px;
+}
+.heading{
+    background-color:#839c9f;
+    
+    box-shadow:0px 2px 2px black ;
+    width:300px;
+    
+    
+    text-align: center;
+  
+     text-transform: uppercase;
+}
+.start
+{
+    background-color:#839c9f;
+    border-radius: 10px;
+    box-shadow:0px 2px 2px black ;
+    
+    
+    text-align: center;
+    
+     text-transform: uppercase;
+}
+.start:hover
+{
+    background-color: black;
+    color: white;
+}
+
+.life
+{
+    height:30px;
+    width: 30px;
+    padding-top: 10px;
+    
+    
+}
+.fruit
+{
+    display: none;
+    width:100px;
+    height:100px;
+    position: absolute;
+}

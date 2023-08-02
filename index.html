@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <title>fruit game</title>
+        <link rel="stylesheet" type="text/css" href="style.css"  >
+        <title></title>
+        <!-- stylesheet related to jquerryui -->
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+        <!-- link jQuerry -->
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <!-- link jQuerryUI -->
+        <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+          
+          
+       <!-- <style>
+        #container{
+            display: flex;
+            place-content: center ,center;
+            
+        }
+       </style> -->
+    </head>
+    <body>
+        <div class="container">
+            <div class="header" style="border: none;">
+            <div >
+                <div id="life-box" class="life-box" style="display: none;">
+                    
+                </div>
+            </div>
+            <div >
+                <div class="score-box">
+                    <p> score:<span id="score">0</span></p>
+                </div>
+            </div>
+            </div>
+            
+            
+            
+            <div id="question"  class="question">
+                <img id="fruit1" class="fruit">
+               
+                <div id="gameover" class="gameover">
+                   
+                    <p> game over !!</p>
+                    <p> your score is <span id="finalscore">0</span>.</p>
+                </div>
+               
+            </div>
+            <div class="heading">
+                <p>  catch the fruit </p>
+            </div>
+         
+            <div >
+                <button id="start" class="start">
+                    <p>start game</p>
+                </button>
+            </div>
+            
+         
+            
+        </div>
+        
+        <script src="script.js">
+        
+            
+        </script>
+        
+    </body>
+</html>
